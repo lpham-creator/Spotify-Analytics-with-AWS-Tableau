@@ -4,6 +4,8 @@
 
 This project automates a data engineering process using AWS cloud services to manage and analyze Spotify user statistics data. The goal was to create a seamless pipeline that extracts, transforms, and loads (ETL) data into AWS S3, then uses Amazon Athena for querying. The processed data is then visualized using Tableau to create an interactive dashboard.
 
+![Architecture](Diagram.png)
+
 Kaggle data: https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023
 
 My AWS data for public use: https://spotifyproject-data.s3.us-east-1.amazonaws.com/data-warehouse/
